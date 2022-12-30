@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .container {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("image/clock.png") no-repeat;
+    background-size: cover;
     width: 45vw;
     height: 45vw;
     border: 1.3rem solid black;
-    background: url("image/clock.png") no-repeat;
-    background-size: cover;
-    margin: 5vh auto;
     border-radius: 100%;
+    margin: auto;
+    scale: 0.9;
 }
 
 #hour,
@@ -46,15 +50,8 @@
     opacity: 0.8;
 }
 
-.ClockName {
-    font-size: 1rem;
-    margin-top: 21rem;
-    margin-left: 13.5rem;
-
-}
-
-.nextpart {
-    margin-bottom: 0;
-    font-weight: bold;
-    font-size: 1rem;
+.devName {
+    position: absolute;
+    top: 10rem;
+    font-size: 2rem;
 }
