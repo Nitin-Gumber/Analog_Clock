@@ -1,0 +1,8 @@
+@media (width<=640px) {
+    .devName {
+        position: absolute;
+        top: 2.3rem;
+        font-size: xx-small;
+        margin: 1rem auto;
+    }
+}
